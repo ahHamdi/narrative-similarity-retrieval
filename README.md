@@ -51,3 +51,9 @@ This script runs an embedding-based baseline to retreive relevant documents give
 Given a `query` the script predicts which candidate documents are relevant. It then evaluates results compared to the ground truth and returns IR metrics
 
 To add a model, modify `models` in `information_retreival.py`.
+
+To run experiments on Tell me again! You have to download the dataset from the original paper of (Hatzel et al. 2024) and run :
+
+```bash
+python evaluate_tma.py 
+```
